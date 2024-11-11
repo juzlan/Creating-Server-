@@ -20,4 +20,5 @@ Node.js installed on your machine.
 MongoDB running locally or accessible through a cloud provider (e.g., MongoDB Atlas).
 
 Install the dependencies: npm install
+
 Start the server:node index.js
