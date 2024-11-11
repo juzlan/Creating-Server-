@@ -1,4 +1,4 @@
-This project is a simple server built using Express.js and MongoDB. It allows users to submit their details (name, email, phone number, and use case) to be notified for a product or service launch. The collected data is stored in a MongoDB database. This project serves as a foundational implementation that can be expanded with more features later.
+This project is a server built using Express.js and MongoDB. It allows users to submit their details (name, email, phone number, and use case) to be notified for a product or service launch. The collected data is stored in a MongoDB database. This project serves as a foundational implementation that can be expanded with more features later.
 
 Features
 Collects user information: name, email, phone number, and use case (individual, team, enterprise, student).
