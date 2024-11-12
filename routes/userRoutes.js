@@ -1,9 +1,9 @@
 import express from 'express';
 import User from "../models/User.js";
-
+import { validateApiKey } from '../middleware/auth.js';
 const router = express.Router();
 
-router.post('/', async (req, res) => {
+router.post('/', validateApiKey, async (req, res) => {
   try {
     const { name, email, phone, useCase } = req.body;
 
