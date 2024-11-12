@@ -31,4 +31,4 @@ export const validateApiKey = (req, res, next) => {
   }
 
   next();
-};  //optional chaining to prevent from errors and convert string to array
+}; 
